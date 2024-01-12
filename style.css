@@ -1,0 +1,35 @@
+.background {
+    background-image: url('responsive.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9FB3FF;
+}
+
+.start {
+    height: 80px;
+    width: 240px;
+    margin-top: 80px;
+    margin-left: 50px;
+    font-size: 20px;
+    background-color: #FEF08D;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    
+    .start {
+        height: 60px;
+        width: 180px;
+        margin-top: 70px;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+}
